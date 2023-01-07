@@ -1,6 +1,7 @@
 import sys
 import numpy as np
-from cv2 import cv2
+import cv2
+# from cv2 import cv2
 import math
 import mediapipe as mp
 
