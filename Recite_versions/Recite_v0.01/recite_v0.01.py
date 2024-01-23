@@ -579,7 +579,7 @@ df3_cleaned = df3.dropna()
 # Main to run
 def main():
     # Initialize webcam and set up the main window
-    cap = cv2.VideoCapture(1, apiPreference=cv2.CAP_AVFOUNDATION)
+    cap = cv2.VideoCapture(0, apiPreference=cv2.CAP_AVFOUNDATION)
 
     # Change resolution
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 100)
